@@ -41,9 +41,16 @@ Foram utilizados três modelos de Machine Learning para a tarefa de classificaç
 
 ## Métricas de Avaliação
 A performance dos modelos foi comparada utilizando as seguintes métricas:
-* 
-* 
-* 
+
+Modelo | Precision | Recall | F1 Score | Acurácia 
+:----- | :-------: | :----: | :------: | :-------: 
+Regressão Logística | | | |
+Random Forest | | | |
+SVM | | | |
+
+Matriz de Confusão do Melhor Modelo:
+
+Gráfico ROC-AUC
 
 ---
 Desafio do Módulo de Machine Learning Avançado - Fase 2. Pós Tech em Data Analytics (FIAP)
