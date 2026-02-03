@@ -1,4 +1,4 @@
-# Predição de Abandono de Funcionários
+# Análise de Churn de Funcionários
 ## Descrição do Projeto
 Este projeto consiste na construção e avaliação de modelos de Machine Learning para prever a probabilidade de um funcionário deixar a empresa, um problema conhecido como **HR Churn**. O objetivo é identificar padrões nas características dos colaboradores que possam indicar uma alta chance de abandono, permitindo que a área de Recursos Humanos (RH) tome medidas preventivas.
 
@@ -26,7 +26,7 @@ depto | Departamento do funcionário.
 
 ## Metodologia
 O processo de Machine Learning foi conduzido no notebook analise_abandono.ipynb e seguiu as seguintes etapas:
-* **Carga e Análise Exploratória (EDA):** Carregamento do dataset e verificação de estrutura, tipos de dados, valores ausentes e estatísticas descritivas.
+* **Carregamento e Análise Exploratória (EDA):** Carregamento do dataset e verificação de estrutura, tipos de dados, valores ausentes e estatísticas descritivas.
 * **Pré-processamento de Dados:** 
     * Tratamento de variáveis categóricas (como salary e depto) via One-Hot Encoding.
     * Escalonamento de features numéricas para garantir que modelos baseados em distância tenham um bom desempenho
