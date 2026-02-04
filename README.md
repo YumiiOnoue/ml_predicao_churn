@@ -33,7 +33,7 @@ O processo de Machine Learning foi conduzido no notebook analise_abandono.ipynb 
 * **Treinamento e Avaliação de Modelos:** O conjunto de dados foi dividido em treino e teste, e diferentes algoritmos foram treinados.
 * **Comparação de Resultados:** Os modelos foram avaliados e seus desempenhos comparados.
 
-## Modelos Avaliados (EM DESENVOLVIMENTO)
+## Modelos Testados
 Foram utilizados três modelos de Machine Learning para a tarefa de classificação:
 * Regressão Logística (Logistic Regression)
 * Random Forest
@@ -44,13 +44,24 @@ A performance dos modelos foi comparada utilizando as seguintes métricas:
 
 Modelo | Precision | Recall | F1 Score | Acurácia 
 :----- | :-------: | :----: | :------: | :-------: 
-Regressão Logística | | | |
-Random Forest | | | |
-SVM | | | |
+Regressão Logística | 0.6093 | 0.8768 | 0.7189 | 0.8387 
+Random Forest | 0.9899 | 0.9674 | 0.9785 | 0.9900 
+SVM | 0.6125 | 0.9292 | 0.7383 | 0.8450 
 
-Matriz de Confusão do Melhor Modelo:
+**Matriz de Confusão**
+![imagem](/images/matriz_confusao.png)
 
-Gráfico ROC-AUC
+**Gráfico ROC**
+![images](/images/curva_roc.png)
+
+**Ranking das 10 Variáveis que Impactam o Abandono**
+![imagem](/images/importancia_permutacao.png)
+
+
+## Como executar o projeto
+1. Clone o repositório: `git clone https://github.com/YumiiOnoue/ml_predicao_churn.git`
+2. Instale as dependências: `pip install -r requirements.txt`
+3. Abra o Jupyter Notebook: `jupyter notebook analise_abandono.ipynb`
 
 ---
 Desafio do Módulo de Machine Learning Avançado - Fase 2. Pós Tech em Data Analytics (FIAP)
