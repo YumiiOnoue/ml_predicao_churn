@@ -48,7 +48,7 @@ A performance dos modelos foi comparada utilizando as seguintes métricas:
 Modelo | Precision | Recall | F1 Score | Acurácia 
 :----- | :-------: | :----: | :------: | :-------: 
 Regressão Logística | 0.6093 | 0.8768 | 0.7189 | 0.8387 
-**Random Forest | 0.9899 | 0.9674 | 0.9785 | 0.9900** 
+**Random Forest** | **0.9899** | **0.9674** | **0.9785** | **0.9900** 
 SVM | 0.6125 | 0.9292 | 0.7383 | 0.8450 
 
 **Matriz de Confusão**
